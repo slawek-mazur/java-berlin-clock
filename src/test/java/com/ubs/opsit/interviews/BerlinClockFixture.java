@@ -12,8 +12,8 @@ import static org.assertj.core.api.Assertions.assertThat;
  * edit this class to complete the exercise, this is your definition of done.
  */
 public class BerlinClockFixture {
-
-    private TimeConverter berlinClock;
+    //todo how do i initialize this field not touching the class ?
+    private TimeConverter berlinClock = new TimeConverterImpl();
     private String theTime;
 
     @Test
